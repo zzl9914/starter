@@ -1,0 +1,71 @@
+:root {
+  color-scheme: light;
+  font-family: "Segoe UI", "PingFang SC", "Noto Sans SC", sans-serif;
+  background: #f4f1ea;
+  color: #1c1915;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  max-width: 32rem;
+  margin: 4rem auto;
+  padding: 0 1.25rem;
+}
+
+.eyebrow {
+  margin: 0;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  color: #8a5a2b;
+}
+
+h1 {
+  margin: 0.4rem 0 0;
+  font-size: 2rem;
+}
+
+.lead {
+  color: #5c564c;
+}
+
+.row {
+  display: flex;
+  gap: 0.5rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.4rem;
+  font-size: 0.9rem;
+}
+
+input,
+button {
+  font: inherit;
+}
+
+input {
+  flex: 1;
+  border: 1px solid #d5cec2;
+  border-radius: 0.4rem;
+  padding: 0.55rem 0.7rem;
+  background: #fff;
+}
+
+button {
+  border: 0;
+  border-radius: 0.4rem;
+  padding: 0.55rem 0.9rem;
+  background: #8a5a2b;
+  color: #fff;
+  cursor: pointer;
+}
+
+#output {
+  min-height: 1.5rem;
+  font-size: 1.15rem;
+}

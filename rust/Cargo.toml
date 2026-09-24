@@ -1,0 +1,9 @@
+[package]
+name = "starter"
+version = "0.1.0"
+edition = "2021"
+description = "Rust sample crate of the polyglot template."
+license = "MIT"
+publish = false
+
+[dependencies]

@@ -1,0 +1,46 @@
+# Build output
+build/
+dist/
+out/
+
+# C / C++
+*.o
+*.obj
+*.exe
+*.ilk
+*.pdb
+
+# Java / Rust (Maven and Cargo both use target/)
+*.class
+.gradle/
+target/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+.mypy_cache/
+
+# .NET
+[Bb]in/
+[Oo]bj/
+.vs/
+*.user
+
+# Haskell
+dist-newstyle/
+*.hi
+*.dyn_hi
+*.dyn_o
+
+# Node
+node_modules/
+
+# Editors
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
